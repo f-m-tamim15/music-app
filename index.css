@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+*{
+    margin:0px;
+    padding:0px;
+    font-family: 'Fira Sans', sans-serif;}
+
+body header{
+    width:100%;
+    height: 100vh;
+    background-size: cover;
+    background-image: url('images/bg_img.svg');
+  
+}
+body header .ak {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.content{
+    background-color: rgb(255, 253, 249);
+    margin: auto;
+    width:300px;
+    height: 500px;
+    border-radius: 10px;
+    box-shadow: -3px -4px 13px 8px rgb(197 196 196);
+}
+
+.content  .first{
+    border-radius: 10px 10px 0px 0px;
+    width:100%;
+    height:150px;
+    margin: auto;
+    padding-bottom: 15px;
+
+}
+.content h1{
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    padding-bottom: 15px;
+
+
+}
+
+.content p {
+ 
+    text-align: center;
+    font-family: 'Fira Sans', sans-serif;     padding-bottom: 15px;
+
+}
+
+.content .plan  {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 15px;
+
+}
+.btn  {
+    padding:10px 20px;
+    text-align:center;
+}
+
+.btn #pytm{
+    padding: 10px 60px;
+    background-color: rgb(4, 4, 211);
+    color: white;
+    font-family: 'Fira Sans', sans-serif;    margin-bottom: 20px;
+    border-radius: 15px;
+}
+.btn #cod {
+    padding: 5px 40px;
+    border: none;
+    background-color: rgb(233, 230, 230);
+    color: rgb(85, 83, 83);
+    font-family: 'Fira Sans', sans-serif;    border-radius: 15px;
+
+}
